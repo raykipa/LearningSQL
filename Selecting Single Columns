@@ -1,0 +1,6 @@
+#Select the title column from the films table.
+SELECT title FROM films;
+#Select the release_year column from the films table.
+SELECT release_year FROM films;
+#Select the name of each person in the people table.
+SELECT name FROM people;
