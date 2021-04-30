@@ -8,3 +8,14 @@ FROM people;
 #2. Count the number of (non-missing) birth dates in the people table.
 SELECT COUNT(birthdate)
 FROM people;
+
+
+#Using the "where" command
+counting movies that were released before 2000
+SELECT COUNT(*)
+FROM films
+WHERE release_year < 2000
+
+SELECT title, release_year
+FROM films
+WHERE release_year > 2000
