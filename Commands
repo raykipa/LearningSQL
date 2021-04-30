@@ -19,3 +19,8 @@ WHERE release_year < 2000
 SELECT title, release_year
 FROM films
 WHERE release_year > 2000
+
+#Selecting a person with a particular birthdate
+SELECT name, birthdate
+FROM people
+WHERE birthdate = '1974-11-11'
