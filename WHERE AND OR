@@ -2,5 +2,10 @@ write a query to get the title and release year of films released in the 90s whi
 #Step 1
 SELECT title, release_year
 FROM films
-WHERE release_year >= 1990
+WHERE (release_year >= 1990 AND release_year < 2000)
 #Step 2
+SELECT title, release_year
+FROM films
+WHERE (release_year >= 1990 AND release_year < 2000)
+AND (language = 'French' OR language = 'Spanish')
+AND (gross > 2000000)
