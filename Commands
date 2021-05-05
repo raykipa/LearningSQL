@@ -26,6 +26,6 @@ FROM people
 WHERE birthdate = '1974-11-11'
 
 #Get the title and release year for all Spanish language films released before 2000
-SELECT title
+SELECT title, release year
 FROM films
-WHERE release_year  < 2000;
+WHERE release_year  < 2000 AND language = 'Spanish';
