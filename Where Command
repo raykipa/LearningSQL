@@ -1,0 +1,43 @@
+#Using the "where" command
+counting movies that were released before 2000
+SELECT COUNT(*)
+FROM films
+WHERE release_year < 2000
+
+SELECT title, release_year
+FROM films
+WHERE release_year > 2000
+
+#Selecting a person with a particular birthdate
+SELECT name, birthdate
+FROM people
+WHERE birthdate = '1974-11-11'
+
+#Get the title and release year for all Spanish language films released before 2000
+SELECT title, release year
+FROM films
+WHERE release_year  < 2000 AND language = 'Spanish';
+
+#Get all details for Spanish language films released after 2000.
+SELECT *
+FROM films
+WHERE release_year  > 2000 AND language = 'Spanish';
+
+#Get all details for Spanish language films released after 2000, but before 2010.
+SELECT *
+FROM films
+WHERE release_year  > 2000
+AND release_year < 2010 
+AND language = 'Spanish';
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
