@@ -1,0 +1,12 @@
+#Learning to use COUNT
+COUNT(*) counts all rows
+COUNT counts number of distinct values in a column
+#1. Count the number of rows in the people table.
+SELECT COUNT(*)
+FROM people;
+
+#2. Count the number of (non-missing) birth dates in the people table.
+SELECT COUNT(birthdate)
+FROM people;
+
+
