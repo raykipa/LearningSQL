@@ -1,0 +1,6 @@
+write a query to get the title and release year of films released in the 90s which were in French or Spanish and which took in more than $2M gross
+#Step 1
+SELECT title, release_year
+FROM films
+WHERE release_year >= 1990
+#Step 2
