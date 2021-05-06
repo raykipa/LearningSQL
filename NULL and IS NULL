@@ -7,3 +7,8 @@ WHERE deathdate IS NUll
 SELECT title
 FROM films
 WHERE budget IS NULL
+
+#Get the number of films which don't have a language associated with them.
+SELECT COUNT(*)
+FROM films
+WHERE language IS NULL;
