@@ -1,0 +1,6 @@
+#the LIKE operator can be used in a WHERE clause to search for a pattern in a column.
+#Get the names of all people whose names begin with 'B'. The pattern you need is 'B%'.
+
+SELECT name
+FROM people
+WHERE name LIKE 'B%'
