@@ -1,0 +1,4 @@
+#Using AVG, SUM etc
+SELECT AVG (gross)
+FROM films
+WHERE title LIKE '%A';
