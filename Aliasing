@@ -8,3 +8,9 @@ FROM films;
 
 SELECT AVG (duration) / 60 AS avg_duration_hours
 FROM films;
+
+-- get the count(deathdate) and multiply by 100.0
+SELECT COUNT(deathdate) * 100.0 / COUNT(*) AS percentage_dead
+-- then divide by count(*)
+
+FROM people
