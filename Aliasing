@@ -14,3 +14,7 @@ SELECT COUNT(deathdate) * 100.0 / COUNT(*) AS percentage_dead
 -- then divide by count(*)
 
 FROM people
+
+Number of years between the first movie and latest movie.
+SELECT MAX (release_year) - MIN (release_year) AS difference
+FROM films
